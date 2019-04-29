@@ -56,6 +56,8 @@ call s:h("Pmenu", s:fg, s:bg, "")
 call s:h("PmenuSel", s:sky1, s:bg, "")
 call s:h("PmenuSbar", s:none, s:bg, "")
 call s:h("PmenuThumb", s:none, s:bg, "")
+
+call s:h("Directory", s:sky2, s:bg, "")
 "
 call s:h("SpellBad", s:warning, s:none, "")
 call s:h("SpellCap", s:yellow, s:none, "")
