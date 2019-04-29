@@ -1,8 +1,8 @@
 set background=dark
 syntax reset
 
-let g:colors_name='sky-feather'
-let colors_name='sky-feather'
+let g:colors_name='sky_feather'
+let colors_name='sky_feather'
 
 let s:bg = "#2d2d2d"
 let s:fg = "#D6D6D6"
