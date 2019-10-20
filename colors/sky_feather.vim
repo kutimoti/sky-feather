@@ -14,6 +14,8 @@ let s:blue = "#52c1fd"
 
 let s:grey = "#6A6868"
 
+let s:pmenu = '#4A4848'
+
 let s:none     = "NONE"
 let s:cursor_line = "#313640"
 let s:warning  = "#FF3030"
@@ -52,10 +54,10 @@ call s:h("MoreMsg", s:warning, s:none, "")
 call s:h("WarningMsg", s:warning, s:none, "")
 call s:h("Question", s:warning, s:none, "")
 "
-call s:h("Pmenu", s:fg, s:bg, "")
-call s:h("PmenuSel", s:sky1, s:bg, "")
-call s:h("PmenuSbar", s:none, s:bg, "")
-call s:h("PmenuThumb", s:none, s:bg, "")
+call s:h("Pmenu", s:fg, s:pmenu, "")
+call s:h("PmenuSel", s:sky1, s:pmenu, "")
+call s:h("PmenuSbar", s:none, s:pmenu, "")
+call s:h("PmenuThumb", s:none, s:pmenu, "")
 
 call s:h("Directory", s:sky2, s:bg, "")
 "
