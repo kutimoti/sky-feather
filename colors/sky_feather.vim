@@ -4,11 +4,7 @@ syntax reset
 let g:colors_name='sky_feather'
 let colors_name='sky_feather'
 
-echo "sky_feather"
-
-
-"let s:bg = "#2d2d2d"
-let s:bg = "#000000"
+let s:bg = "#2d2d2d"
 let s:fg = "#D6D6D6"
 let s:sky1 = "#f3a768"
 let s:sky2 = "#eb7d21"
@@ -123,8 +119,8 @@ call s:h("Macro" , s:sky2 , s:none , "")
 call s:h("PreCondit" , s:sky2 , s:none , "")
 
 call s:h("Type" , s:fth1 , s:none , "")
-call s:h("StorageClass" , s:fth1 , s:none , "")
-call s:h("Structure" , s:fth1 , s:none , "")
+call s:h("StorageClass" , s:fth2 , s:none , "")
+call s:h("Structure" , s:fth2 , s:none , "")
 call s:h("Typedef" , s:fth1 , s:none , "")
 call s:h("Special" , s:sky1 , s:none , "")
 call s:h("SpecialChar" , s:sky1 , s:none , "")
@@ -136,6 +132,8 @@ call s:h("Underlined" , s:sky2 , s:none , "")
 call s:h("Ignore" , s:sky2 , s:none , "")
 call s:h("Error" , s:warning , s:none , "")
 call s:h("Todo" , s:sky2 , s:none , "")
+call s:h("LspCxxHlGroupNamespace" , s:fth1 , s:none , "")
+call s:h("LspCxxHlGroupMemberVariable" , s:fg , s:none , "")
 
 " Git {
 "call s:h("gitcommitComment", s:azure_dd, "", "")
