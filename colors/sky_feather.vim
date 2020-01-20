@@ -4,7 +4,11 @@ syntax reset
 let g:colors_name='sky_feather'
 let colors_name='sky_feather'
 
-let s:bg = "#2d2d2d"
+echo "sky_feather"
+
+
+"let s:bg = "#2d2d2d"
+let s:bg = "#000000"
 let s:fg = "#D6D6D6"
 let s:sky1 = "#f3a768"
 let s:sky2 = "#eb7d21"
